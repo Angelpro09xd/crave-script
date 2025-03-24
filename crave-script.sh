@@ -11,16 +11,9 @@ echo "Repo init success"
 echo "================="
 echo ""
 
-# Remove modified update package
-
-rm -rf packages/apps/Updater
-echo "============================"
-echo "Remove modified update package success"
-echo "============================"
-echo ""
 
 # Clone local_manifests repository
-git clone https://github.com/saroj-nokia/local_manifests_sapphire --depth 1 -b sapphireevo .repo/local_manifests
+git clone https://github.com/Angelpro09xd/local_manifests_sapphire.git --depth 1 -b sapphire15 .repo/local_manifests
 echo "============================"
 echo "Local manifest clone success"
 echo "============================"
@@ -31,20 +24,6 @@ echo ""
 echo "============================"
 echo ""
 
-# Remove default update package
-rm -rf packages/apps/Updater
-echo "============================"
-echo "Remove default update package success"
-echo "============================"
-echo ""
-
-
-# Clone modified evo update package
-git clone https://github.com/sapphire-sm6225/packages_apps_Updater.git -b vic-qpr1 packages/apps/Updater
-echo "============================"
-echo "modified evo update package clone success"
-echo "============================"
-echo ""
 
 # clone hals for sm6225
 rm -rf hardware/qcom-caf/common
