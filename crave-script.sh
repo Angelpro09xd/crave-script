@@ -80,9 +80,8 @@ echo ""
 
 # Build
 source build/envsetup.sh
-export BUILD_USERNAME=sarojtaj77
+export BUILD_USERNAME=@Angelpro09_Dev
 export BUILD_HOSTNAME=T800-machine
 export ALLOW_MISSING_DEPENDENCIES=true
-breakfast sapphire user
-make installclean
-m evolution
+lunch aosp_sapphire-ap4a-user
+mka bacon
