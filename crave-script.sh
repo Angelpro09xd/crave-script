@@ -63,4 +63,5 @@ export BUILD_USERNAME=@Angelpro09_Dev
 export BUILD_HOSTNAME=T800-machine
 export ALLOW_MISSING_DEPENDENCIES=true
 lunch aosp_sapphire-ap4a-user
+rm -rf hardware/xiaomi/megvii
 mka bacon
