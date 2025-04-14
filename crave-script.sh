@@ -5,7 +5,7 @@ rm -rf .repo/local_manifests/
 rm -rf hardware/qcom-caf/common
 
 # ROM source repo
-repo init -u https://github.com/ProjectPixelage/android_manifest.git -b 15 --git-lfs
+repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15 --git-lfs
 echo "================="
 echo "Repo init success"
 echo "================="
@@ -62,5 +62,5 @@ source build/envsetup.sh
 export BUILD_USERNAME=@Angelpro09_Dev
 export BUILD_HOSTNAME=T800-machine
 export ALLOW_MISSING_DEPENDENCIES=true
-lunch pixelage_sapphire-bp1a-userdebug
-mka bacon
+lunch derp_sapphire-userdebug
+mka derp
