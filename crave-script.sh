@@ -62,5 +62,5 @@ source build/envsetup.sh
 export BUILD_USERNAME=@Angelpro09_Dev
 export BUILD_HOSTNAME=T800-machine
 export ALLOW_MISSING_DEPENDENCIES=true
-lunch pixelage_sapphire-ap4a-userdebug
+lunch pixelage_sapphire-bp1a-userdebug
 mka bacon
